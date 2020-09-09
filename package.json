@@ -1,5 +1,5 @@
 {
-  "name": "typescript-grpc",
+  "name": "typescript-grpc-server",
   "version": "0.1.0",
   "description": "Typescript grpc decorators with grpc server.",
   "main": "dist/index.js",

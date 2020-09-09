@@ -61,4 +61,6 @@ grpcServer = new TypescriptGrpcServer({
   servicesPath: '/src/grpc/*.service.ts',
   generatedPath: './generated'
 })
+
+grpcServer.start().then(() => console.log('Server started'))
 ```
