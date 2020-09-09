@@ -59,7 +59,8 @@ import { TypescriptGrpcServer } from 'typescript-grpc-server'
 
 grpcServer = new TypescriptGrpcServer({
   servicesPath: '/src/grpc/*.service.ts',
-  generatedPath: './generated'
+  generatedPath: './generated',
+  port: '50051'
 })
 
 grpcServer.start().then(() => console.log('Server started'))
