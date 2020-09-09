@@ -1,0 +1,32 @@
+{
+  "name": "@beattv/typescript-grpc",
+  "version": "0.1.0",
+  "description": "Typescript grpc decorators with grpc server.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --opts test/mocha.opts",
+    "build": "rm -rf dist && tsc -p .",
+    "dev": "tsc -p . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beattv/typescript-grpc.git"
+  },
+  "keywords": [
+    "grpc",
+    "decorator",
+    "typescript"
+  ],
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.5",
+    "@grpc/proto-loader": "^0.5.5",
+    "glob-fs": "^0.1.7",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/reflect-metadata": "^0.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
