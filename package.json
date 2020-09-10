@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Typescript grpc decorators with grpc server.",
   "main": "dist/index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha --opts test/mocha.opts",
@@ -28,6 +30,6 @@
   "devDependencies": {
     "@types/reflect-metadata": "^0.1.0",
     "ts-node": "^7.0.1",
-    "typescript": "^3.1.6"
+    "typescript": "^4.0.2"
   }
 }
